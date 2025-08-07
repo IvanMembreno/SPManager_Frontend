@@ -2,9 +2,9 @@
 Este proyecto se trabajará en Visual Studio Code
 
 ### Instalar tslib
-El proyecto no funcionará si no se instala tslib antes, por lo que deberas ir a una terminal dentro del proyecto en ingresar la siguiente linea
+El proyecto no funcionará si no se tiene instalado node.js, por lo que deberas instalarlo y luego ingresar a una terminal dentro del proyecto y colocar la siguiente linea:
 ```bash
-npm install tslib
+npm install
 ```
 
 # SPManagerFrontend
