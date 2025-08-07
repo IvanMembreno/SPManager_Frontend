@@ -7,17 +7,17 @@ El proyecto no funcionará si no se tiene instalado node.js, por lo que deberas 
 npm install
 ```
 
-# SPManagerFrontend
-
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.1.3.
-
 ## Development server
 
-To start a local development server, run:
+Para iniciar un servidor de desarrollo local, ejecute la siguiente linea en una terminal:
 
 ```bash
 ng serve
 ```
+
+# SPManagerFrontend
+
+This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.1.3.
 
 Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
 
