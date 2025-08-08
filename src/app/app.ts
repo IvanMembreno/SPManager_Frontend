@@ -1,5 +1,6 @@
-import { Component, signal } from '@angular/core';
+import { Component, inject, signal } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
+import { Estudiante } from './services/estudiante';
 
 @Component({
   selector: 'app-root',
@@ -9,5 +10,12 @@ import { RouterOutlet } from '@angular/router';
   styleUrl: './app.css'
 })
 export class App {
-  protected readonly title = signal('SPManager_Frontend');
+  estudiantes = inject(Estudiante);
+  estudiante: any[] = [];
+
+  constructor() {
+    this.estudiantes.getEstudiantes().subscribe(datos => {
+      this.estudiante = datos;
+    })
+  }
 }
