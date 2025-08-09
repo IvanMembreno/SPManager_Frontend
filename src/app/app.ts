@@ -4,7 +4,7 @@ import { Estudiante } from './services/estudiante';
 
 @Component({
   selector: 'app-root',
-  // standalone: true, esto no venia
+  standalone: true,
   imports: [RouterOutlet],
   templateUrl: './app.html',
   styleUrl: './app.css'

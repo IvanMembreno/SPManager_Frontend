@@ -1,11 +1,18 @@
 <h2>Prueba de comunicacion con el Backend</h2>
 <h3>Debajo de aca deberia aparecer los estudiantes</h3>
 
-@for (estudiantes of estudiante; track $index) {
+@for (estud of estudiante; track $index) {
   <div>
-    <div>CodigoEstudiante: {{estudiantes.CodigoEstudiante}}</div>
-    <div>Nombre: {{estudiantes.Nombre}}</div>
-    <div>Apellido: {{estudiantes.Apellido}}</div>
+    <div>Codigo: {{estud.codigoEstudiante}}</div>
+    <div>Nombre: {{estud.nombre}}</div>
+    <div>Apellido: {{estud.apellido}}</div>
+    <div>Facultad: {{estud.facultad}}</div>
+    <div>Carrera: {{estud.carrera}}</div>
+    <div>Ciclo: {{estud.ciclo}}</div>
+    <div>Correo: {{estud.correo}}</div>
+    <div>Telefono: {{estud.telefono}}</div>
+    <div>IdDescripcion: {{estud.idDescripcion}}</div>
+    <div>IdEncargado: {{estud.idEncargado}}</div>
   </div>
   <hr>
 }
